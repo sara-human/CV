@@ -12,11 +12,7 @@ Windows CPU run: PyTorch 2.11.0+cpu, NumPy 2.4.3. Install dependencies in your P
 Place the original course-provided `Tutorial_08_CV_Latent_Models.zip` beside the scripts. The data loader finds `mnist_binary_subset.npz` inside the ZIP, or in the extracted `Tutorial_08_CV_Latent_Models/data/` or `data/` directory. The dataset is intentionally not duplicated here. Preserve the supplied splits.
 
 ## Run
-From the extracted submission directory, train from random initialization and evaluate:
-
-    python CS4186_Integrated_Project_Windows.py
-
-Alternatively open `CS4186_Integrated_Project_Windows.ipynb` in JupyterLab and run all cells.
+Open `CS4186_Integrated_Project_Windows.ipynb` in JupyterLab and run all cells.
 
 To evaluate the supplied trained checkpoint without retraining:
 
